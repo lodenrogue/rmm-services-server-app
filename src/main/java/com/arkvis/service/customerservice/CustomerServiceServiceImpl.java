@@ -2,6 +2,7 @@ package com.arkvis.service.customerservice;
 
 import com.arkvis.error.ConflictException;
 import com.arkvis.error.NotFoundException;
+import com.arkvis.model.Cost;
 import com.arkvis.model.CustomerService;
 import com.arkvis.model.Service;
 import com.arkvis.repository.customerservice.CustomerServiceRepository;

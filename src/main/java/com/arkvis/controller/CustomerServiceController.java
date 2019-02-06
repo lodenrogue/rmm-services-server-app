@@ -3,6 +3,7 @@ package com.arkvis.controller;
 import com.arkvis.error.ErrorUtils;
 import com.arkvis.error.MissingFieldsError;
 import com.arkvis.error.UnprocessableEntityException;
+import com.arkvis.model.Cost;
 import com.arkvis.model.CustomerService;
 import com.arkvis.service.customerservice.CustomerServiceService;
 import org.springframework.beans.factory.annotation.Autowired;
