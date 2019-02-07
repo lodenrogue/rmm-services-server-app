@@ -43,3 +43,14 @@ CREATE INDEX ix_customer_services_customer_id
 --
 CREATE UNIQUE INDEX ix_customer_services_customer_id_service_name
     ON customer_services(customer_id, service_name);
+--
+-- Create credentials table
+--
+CREATE TABLE credentials (
+    id                  INT NOT NULL PRIMARY KEY,
+    salt                CHAR(16) NOT NULL,
+    user_password       VARCHAR(100) NOT NULL
+);
+
+INSERT INTO credentials(id, salt, user_password)
+    VALUES (1, 'd7heij866dcfaFeo', '$2a$12$XBbmXUjoMBW0XELkWSXjZuXZzuDnhDxuz6H/0ZkWq6qD0D2ryMJ9C');

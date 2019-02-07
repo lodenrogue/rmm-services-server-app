@@ -32,6 +32,7 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile group: 'at.favre.lib', name: 'bcrypt', version: '0.7.0'
     compile("com.h2database:h2")
 
     compile("org.springframework.boot:spring-boot-starter-actuator")
