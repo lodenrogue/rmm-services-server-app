@@ -1,4 +1,5 @@
 In order to run build and run the application
+
     1. Create a database where we can create tables and rows (I am using MySQL)
 
     2. Run the database.sql file to create the necessary tables and rows. File is located in src/main/resources folder.
@@ -22,6 +23,8 @@ In order to make any request we must include an Authorization header. For simpli
 Authorization: SECRET
 
 Task 1
+
+
     1. In order to create devices (Note: type should be either WINDOWS or MAC):
         Headers
             Authorization: SECRET
@@ -71,6 +74,7 @@ Task 1
             HTTP DELETE http://localhost:8080/rmm/devices/{uuid}
 
 Task 2
+
     1. In order to get a list of all services
         Headers
             Authorization: SECRET
@@ -113,6 +117,7 @@ Task 2
             HTTP Status 409 Conflict
 
 Task 3
+
     1. In order to calculate the cost of services for a customer
         Headers
             Authorization: SECRET
